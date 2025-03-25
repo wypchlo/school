@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">08</string>
+    <string name="title">Wizyta u weterynarza</string>
+    <string name="nameSurnameHint">Imię i nazwisko właściciela…</string>
+    <string name="species">Gatunek</string>
+    <string name="ageLabel">Ile ma lat?</string>
+    <string name="causeHint">Cel wizyty</string>
+    <string name="button">OK</string>
+</resources>

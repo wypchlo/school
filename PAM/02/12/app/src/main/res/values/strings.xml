@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">12</string>
+    <string name="name_label">Imię</string>
+    <string name="email_label">Adres e-mail</string>
+    <string name="button">Zwiększ liczbę</string>
+    <string name="txt2">Kliknąłeś przycisk 0 razy</string>
+    <string name="missing_data">Najpierw uzupełnij swoje dane</string>
+    <string name="welcome">Witaj, %1$s! Twój adres e-mail to: %2$s</string>
 </resources>

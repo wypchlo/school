@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main" >
+        <item name="android:background">#90EE90</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#154028</item>
+        <item name="android:background">#2E8B57</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="lightText">
+        <item name="android:textColor">#487748</item>
+    </style>
+</resources>

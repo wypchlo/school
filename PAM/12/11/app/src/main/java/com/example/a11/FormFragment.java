@@ -32,7 +32,7 @@ public class FormFragment extends Fragment {
             String errorMessage = "";
 
             if(email.isEmpty()) errorMessage += "  " + getString(R.string.email_missing);
-            else if(!Pattern.compile("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]$").matcher(email).matches()) errorMessage += "  " + getString(R.string.invalid_email);
+            else if(!Pattern.compile("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$").matcher(email).matches()) errorMessage += "  " + getString(R.string.invalid_email);
 
             if(name.isEmpty()) errorMessage += "  " + getString(R.string.name_missing);
             if(surname.isEmpty()) errorMessage += "  " + getString(R.string.surname_missing);
