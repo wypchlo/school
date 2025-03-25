@@ -1,0 +1,25 @@
+Zadanie 10.03
+Zadanie 10.03
+Zapoznaj się z podstawami Teorii Grafów dostępnymi pod adresem https://eduinf.waw.pl/inf/alg/001_search/0124.php.
+Po zapoznaniu się z podstawami teoretycznymi wykonaj zadanie.
+ 
+Odczytaj z pliku tekstowego definicję grafu i stwórz dla niego listę sąsiedztwa. Wypisz na ekran wczytaną listę a następnie przekształć ją do postaci macierzy sąsiedztwa i wypisz stworzoną macierz na ekran.
+Przykładowy plik tekstowy poniżej:
+4
+0 1 3
+1 0 2 3
+2 1 3
+3 0 1 2
+Pierwszy wiersz oznacza liczbę wierzchołków. Kolejne wiersze to reprezentacja grafu w postaci listy sąsiedztwa.
+ 
+Zaimplementuj program w języku Python. Program ma składać się z 5 funkcji:
+read_graph -> funkcja przyjmuje nazwę pliku i zwraca listy sąsiedztwa oraz ilość wierzchołków
+write_neighbours_list -> funkcja przyjmuję listę sąsiedztwa i wypisuje ją na ekran w formacie "Sąsiadami wierzchołka X są: a, b, c"
+list_to_matrix -> funkcja przyjmuje listę sąsiedztwa i zwraca macierz sąsiedztwa
+write_matrix -> funkcja przyjmue macierz sąsiedztwa i wypisuje ją na ekran
+main -> funkcja podstawowa, wywoływana jeżeli uruchomiono plik
+W kodzie uwzględnij typy danych. Załóż, że plik tekstowy ma nazwę graph.txt
+Artykuł opisuje różne algorytmy wyszukujące informacje w zbiorach danych takich jak przedziały liczbowe, tablice, macierze, wektory, listy, drzewa, grafy, teksty itp.
+ 
+Artykuł opisuje różne algorytmy wyszukujące informacje w zbiorach danych takich jak przedziały liczbowe, tablice, macierze, wektory, listy, drzewa, grafy, teksty itp.
+ 
