@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">23</string>
+    <string name="login_header">Logowanie</string>
+    <string name="email">Adres e-mail</string>
+    <string name="password">Hasło</string>
+    <string name="login">Zaloguj się</string>
+
+    <string name="fragments_play">Zabawa fragmentami</string>
+    <string name="change_fragment">Zmień fragment</string>
+    <string name="show_notification">Pokaż powiadomienie</string>
+
+    <string name="display_list">Wyświetlanie listy</string>
+
+    <string name="fragment_1">Fragment 1</string>
+
+    <string name="fragment_2">Fragment 2</string>
+    <string name="open_dialog_fragment">Otwórz okno dialogowe</string>
+
+    <string name="fill_out_every_field">Wypełninj wszystkie pola!</string>
+    <string name="invalid_login_data">Niepoprawne dane logowania!</string>
+    <string name="logged_in">Zalogowano!</string>
+
+    <string name="notification_title">Powiadomienie</string>
+    <string name="notification_content">Wiadomość powiadomienia</string>
+
+    <string name="list_item_1">Programowanie obiektowe</string>
+    <string name="list_item_2">Programowanie Aplikacji Mobilnych</string>S
+    <string name="list_item_3">Programowanie Aplikacji Internetowych</string>
+    <string name="list_item_4">Programowanie Aplikacji Webowych</string>
+    <string name="list_item_5">Programowanie Aplikacji Desktopowych</string>
+
+    <string name="dialog_title">Okno dialogowe</string>
+    <string name="dialog_message">Treść wiadomości</string>
+</resources>
