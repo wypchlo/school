@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RzutKoscmi</string>
+    <string name="home_label">Gra w kości. Autor Miłosz Wypchło</string>
+    <string name="toss_dice">Rzuć kośćmi</string>
+    <string name="current_result">Wynik tego losowania: </string>
+    <string name="result">Wynik gry: </string>
+    <string name="reset">Resetuj wynik: </string>
+</resources>
