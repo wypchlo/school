@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InternetRzeczy</string>
+    <string name="input_hint">Podaj nr prania 1..12</string>
+    <string name="text_header">Urządzenia domowe</string>
+    <string name="text_autor">Autor: Miłosz Wypchło</string>
+
+    <string name="text_pralka">Pralka</string>
+    <string name="button_pralka">ZATWIERDŹ</string>
+    <string name="info_pralka">Numer prania: nie podano</string>
+    <string name="info_pralk">Numer prania: </string>
+
+    <string name="text_odkurzacz">Odkurzacz</string>
+    <string name="button_odkurzacz">WŁĄCZ</string>
+    <string name="button_odkurzacz_fire">WYŁĄCZ</string>
+    <string name="info_odkurzacz">Odkurzacz wyłączony</string>
+    <string name="info_odkurzacz_burburala">Odkurzacz włączony</string>
+    <string name="status_odkurzacz">Status: naładowany</string>
+</resources>

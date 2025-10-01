@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="@string/text_header" />
+
+    <TextView
+        android:id="@+id/text_autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/text_autor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/pralka" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_pralka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/text_pralka" />
+
+            <EditText
+                android:id="@+id/input_pralka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="#87CEEB"
+                android:textColor="#000080"
+                android:textColorHint="#000080"
+                android:hint="@string/input_hint"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button_pralka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4169E1"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:text="@string/button_pralka" />
+
+            <TextView
+                android:id="@+id/info_pralka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_pralka" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/odkurzacz" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_odkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/text_odkurzacz" />
+
+            <Button
+                android:id="@+id/button_odkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4169E1"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:text="@string/button_odkurzacz" />
+
+            <TextView
+                android:id="@+id/info_odkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_odkurzacz" />
+
+            <TextView
+                android:id="@+id/status_odkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_odkurzacz" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
