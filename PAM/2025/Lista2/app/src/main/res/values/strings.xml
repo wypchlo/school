@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista</string>
+    <string name="button">DODAJ</string>
+    <string name="new_entry">Nowy element</string>
+
+    <string name="default_entry_one">Zakupy: chleb, masło, ser</string>
+    <string name="default_entry_two">Do zrobienia: obiad, umyć podłogi</string>
+    <string name="default_entry_three">weekend: kino, spacer z psem</string>
+</resources>
