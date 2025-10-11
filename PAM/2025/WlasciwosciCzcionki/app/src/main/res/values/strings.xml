@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WlasciwosciCzcionki</string>
+
+    <string name="font_properties">Właściwości czcionki</string>
+    <string name="size">Rozmiar: </string>
+
+    <string name="quote_polish">Dzień dobry</string>
+    <string name="quote_english">Good morning</string>
+    <string name="quote_spanish_i_think">Buenos dias</string>
+</resources>
