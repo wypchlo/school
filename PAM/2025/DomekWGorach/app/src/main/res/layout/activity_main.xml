@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/title" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/title"
+        app:srcCompat="@drawable/dawn_4869057_1920" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008080"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/like_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#008080"
+            android:textColor="@color/white"
+            android:text="@string/like" />
+
+        <Button
+            android:id="@+id/delete_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#008080"
+            android:textColor="@color/white"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@+id/save_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#008080"
+            android:textColor="@color/white"
+            android:text="@string/save" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/like_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/like_counter_default" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:backgroundTint="#808080"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/ad_i_think"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="@string/fnaf" />
+
+</LinearLayout>

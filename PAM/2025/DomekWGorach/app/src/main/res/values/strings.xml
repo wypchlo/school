@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DomekWGorach</string>
+
+    <string name="title">Domek w górach</string>
+
+    <string name="like">Polub</string>
+    <string name="delete">Usuń</string>
+    <string name="save">Zapisz</string>
+
+    <string name="like_counter_default">0 polubień</string>
+    <string name="like_counter">polubień</string>
+
+    <string name="description">Opis</string>
+    <string name="fnaf">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+</resources>
