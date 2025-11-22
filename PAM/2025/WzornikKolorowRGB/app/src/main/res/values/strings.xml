@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wzornik kolorów RGB. Wykonał: [Miłosz Wypchło]</string>
+    <string name="pick_a_color_with_selectors">"Dobierz kolor suwakami i zapisz przyciskiem"</string>
+    <string name="R">R</string>
+    <string name="G">G</string>
+    <string name="B">B</string>
+    <string name="probe">Pobierz</string>
+</resources>

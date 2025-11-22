@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dodaj pracownika. Wykonał: [Miłosz Wypchło]</string>
+    <string name="employee_data">Dane pracownika</string>
+    <string name="password_generation">Generowanie hasła</string>
+    <string name="name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="position">Stanowisko</string>
+    <string name="how_many_signs">Ile znaków?</string>
+    <string name="small_and_big_letters">Małe i wielkie litery</string>
+    <string name="digits">Cyfry</string>
+    <string name="special_characters">Znaki specjalne</string>
+    <string name="generate_password">Generuj hasło</string>
+    <string name="confirm">Zatwierdź</string>
+</resources>

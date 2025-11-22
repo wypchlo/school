@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nadaj Przesyłkę. Wykonał: [Miłosz Wypchło]</string>
+    <string name="postcard">Pocztówka</string>
+    <string name="letter">List</string>
+    <string name="parcel">Paczka</string>
+    <string name="type_of_delivery">Rodzaj przesyłki</string>
+    <string name="check_price">Sprawdź Cenę</string>
+    <string name="addressing_data">Dane adresowe</string>
+    <string name="street_with_number">Ulica z numerem</string>
+    <string name="postal_code">Kod pocztowy</string>
+    <string name="city">Miasto</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="confirm_success">Dane przesyłki zostały wprowadzone</string>
+    <string name="confirm_not_all_digits">Kod pocztowy powienien się składać z samych cyfr</string>
+    <string name="confirm_incorrect_length">Nieprawidłowa liczba cyfr w kodzie pocztowym</string>
+</resources>

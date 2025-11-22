@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Szyfrowanie. Wykonane przez: [Miłosz Wypchło]</string>
+    <string name="input_key_value">Podaj wartość klucza</string>
+    <string name="input_text">Podaj tekst</string>
+    <string name="encode">Zaszyfruj</string>
+    <string name="encoded_text">Tekst zaszyfrowany</string>
+    <string name="save_cipher_to_file">Zapisz szyfr w pliku</string>
+</resources>
